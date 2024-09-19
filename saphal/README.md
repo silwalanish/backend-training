@@ -6,7 +6,7 @@
 Create a simple Node.js module and use it in a basic application
 
 
-    Create a Node.js module using Typescript to generate the unique list of cost centers ordered alphabetically from a given array of cost center.
+    Create a Node.js module using Typescript to generate a unique list of cost centers ordered alphabetically from a given array of cost centers.
 
     Example:
 
@@ -55,7 +55,7 @@ tsc --init
 npx tsc
 ```
 
-### 2. Pulish the module to NPM
+### 2. Publish the module to NPM
 
 * Login to NPM
 
@@ -65,13 +65,16 @@ npm login
 
 * Publish the package
 
-> `--scope=public` is for setting the scope of namespace package to public i.e. `@saphall/sort-cost-center`
+> `--scope=public` is for setting the scope of the namespace package to public i.e. `@saphall/sort-cost-center`
 
 ```bash
 npm publish --scope=public
 ```
 
-### 3. Create Node.js application to use the published package
+![image](https://github.com/user-attachments/assets/7747e4ae-435f-41d6-bfe1-29fee30a6205)
+
+
+### 3. Create a Node.js application to use the published package
 
 * Create `node_app_test`
 
@@ -82,9 +85,9 @@ cd node_app_test/
 npm init -y
 ```
 
-* Install the publised package to serve the output in a HTTP endpoint
+* Install the published package to serve the output in an HTTP endpoint
 
-> Use `express` for minimal and flexible web application framework
+> Use `express` for a minimal and flexible web application framework
 
 ```bash
 npm install express 
@@ -98,3 +101,6 @@ touch index.js
 ```bash
 node index.js
 ```
+
+![image](https://github.com/user-attachments/assets/c841ee89-a643-4c33-b509-4a382748f068)
+
