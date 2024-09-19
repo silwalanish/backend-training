@@ -1,0 +1,22 @@
+{
+"compilerOptions": {
+  /* Visit https://aka.ms/tsconfig to read more about this file */
+  /* Default Config */
+
+  /* Language and Environment */
+  "target": "es2016",
+
+  /* Modules */
+  "module": "commonjs",
+
+  /* Interop Constraints */
+  "esModuleInterop": true,
+  "forceConsistentCasingInFileNames": true,
+
+  /* Type Checking */
+  "strict": true,
+  "skipLibCheck": true
+},
+"include": ["src/**/*.ts"],
+"exclude": ["node_modules"]
+}
