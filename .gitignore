@@ -1,0 +1,13 @@
+node_modules/
+.node_modules/
+built/*
+build.json
+*.config
+.settings
+.idea
+yarn.lock
+yarn-error.log
+package-lock.json
+.eslintcache
+*v8.log
+/lib/
