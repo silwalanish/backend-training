@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@xrbudx/cost-center-sorting": "^1.0.4",
+    "express": "^4.21.0"
+  }
+}

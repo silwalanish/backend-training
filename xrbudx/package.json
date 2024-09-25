@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "tsc"
+  },
+  "name": "@xrbudx/cost-center-sorting",
+  "version": "1.0.4",
+  "main": "src/index.js",
+  "author": "xrbudx",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@xrbudx/cost-center-sorting": "^1.0.4",
+    "express": "^4.21.0"
+  }
+}
