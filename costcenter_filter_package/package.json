@@ -1,0 +1,15 @@
+{
+  "name": "@banmalasanjeev/costcenter_filter",
+  "version": "1.0.1",
+  "description": "",
+  "main": "src/costcenter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Costcenter"],
+  "author": "Sanjeev Banmala",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
