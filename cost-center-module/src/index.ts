@@ -12,4 +12,7 @@ function generateUniqueCostCenters(params:[string,string][]):CostCenter[]{
         },[]).sort((a,b)=>Number(a.id)-Number(b.id))
 }
 
-console.log(generateUniqueCostCenters([["300","Cost Center B"],["200","Cost Center A"],["300","Cost Center B"]]))
+// console.log(generateUniqueCostCenters([["300","Cost Center B"],["200","Cost Center A"],["300","Cost Center B"]]))
+export default generateUniqueCostCenters
+
+// reduce
