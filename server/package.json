@@ -1,0 +1,21 @@
+{
+  "name": "2024sep4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@swastika1/array-sort": "^1.2.2",
+    "formidable": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "typescript": "^5.7.2"
+  }
+}
