@@ -1,0 +1,22 @@
+{
+  "name": "backend-training-week-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha ./tests/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^3.5.2",
+    "prakriti-cost-center-module": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^11.0.1",
+    "supertest": "^7.0.0"
+  }
+}
