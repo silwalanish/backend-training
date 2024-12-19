@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cost Center CSV Upload</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .upload-form {
+            border: 2px dashed #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+        .submit-btn {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cost Center CSV Upload</h1>
+    <div class="upload-form">
+        <form action="/file-upload" method="post" enctype="multipart/form-data">
+            <h3>Upload your CSV file</h3>
+            <input type="file" name="csvFile" accept=".csv" required>
+            <br>
+            <button type="submit" class="submit-btn">Upload and Process</button>
+        </form>
+    </div>
+</body>
+</html>
