@@ -1,0 +1,35 @@
+{
+  "name": "day3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "SET NODE_ENV=test && SET TS_NODE_COMPILER_OPTIONS={\"allowImportingTsExtensions\":true,\"noEmit\": true} && mocha -r ts-node/register  --recursive \"tests/**/*.test.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/chai": "^4.3.19",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.10.2",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "cross-env": "^7.0.3",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.4.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/formidable": "^3.4.5",
+    "formidable": "^3.5.2",
+    "sort-cost-center": "^1.0.3"
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": true
+  }
+}

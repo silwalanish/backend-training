@@ -1,0 +1,9 @@
+{
+    "require": ["ts-node/register", "chai/register-expect.js"],
+    "loader": "ts-node/esm",
+    "extension": ["ts"],
+    "spec": "tests/**/*.test.ts",
+    "recursive": true
+  
+  }
+  
